@@ -35,7 +35,7 @@ setup(
         ]
     },
     package_data={
-        "inspector_facet": [
+        "woodshadow": [
             "version.txt",
             "abis/*.json",
             "fixtures/*.json",

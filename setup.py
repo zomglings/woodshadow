@@ -11,7 +11,7 @@ setup(
     name="woodshadow",
     version=VERSION,
     packages=find_packages(),
-    install_requires=["eth-brownie", "moonworm", "tqdm"],
+    install_requires=["eth-brownie", "inspector-facet", "moonworm >= 0.2.2", "tqdm"],
     extras_require={
         "dev": ["black", "mypy"],
         "distribute": ["setuptools", "twine", "wheel"],
